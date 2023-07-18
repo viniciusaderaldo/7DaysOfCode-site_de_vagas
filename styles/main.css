@@ -1,0 +1,35 @@
+/* fonte */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+/* estilos */
+@import url('header.css');
+@import url('cabecalho.css');
+@import url('metricas.css');
+@import url('vagas_banner.css');
+@import url('vagas_vagas.css');
+@import url('depoimentos.css');
+@import url('rodape.css');
+
+:root{
+    --fontePrincipal:'inter', sans-serif;
+    --corPrincipal:#667085;
+    --corDestaque:#8E2424;
+    --corLogo:#3A404E;
+    --corDestaque2:#101828;
+    --corComentario:#98A2B3;
+    --corBackground: rgba(142, 36, 36, 0.05);
+    --corBackground2: rgba(195, 25, 25, 0.03); ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--fontePrincipal);
+    color: var(--corPrincipal);
+    font-size:16px;
+    width: 100%;
+    height: 100vh;
+}

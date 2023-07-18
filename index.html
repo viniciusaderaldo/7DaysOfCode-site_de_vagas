@@ -6,27 +6,39 @@
         <meta  http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>OptimusTech</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <!--  -->
     <!-- BODY -->
     <body>
         <header>
-            <div class="header--logo">
-                <img src="images/logo.svg" alt="Logo da OptimusTech">
-                <h1>OptimusTech</h1>
+            <div class="header__1024mais">
+                <div class="header__logo">
+                    <img src="images/logo.svg" alt="Logo da OptimusTech">
+                    <h1>OptimusTech</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">produtos</a></li>
+                        <li><a href="#">recursos</a></li>
+                        <li><a href="#">sobre nós</a></li>
+                    </ul>
+                </nav>
+                <div class="header__entrar">
+                    <button type="button" name="entrar" id="btnEntrar">entrar</button>
+                    <button type="button" name="cadastrar" id="btnCadastrar">cadastrar</button>
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">produtos</a></li>
-                    <li><a href="#">recursos</a></li>
-                    <li><a href="#">sobre nós</a></li>
-                </ul>
-            </nav>
-            <div class="header--entrar">
-                <button type="button" name="entrar" id="btnEntrar">entrar</button>
-                <button type="button" name="cadastrar" id="btnCadastrar">cadastrar</button>
+            <div class="header__1024menos">
+                <div class="header__logo">
+                    <img src="images/logo.svg" alt="Logo da OptimusTech">
+                    <h1>OptimusTech</h1>
+                </div>
+                <span class="material-symbols-outlined" aria-label="Abrir menu de navegação">menu</span>
+                <span class="material-symbols-outlined desativado" aria-label="Fechar menu de navegação">close</span>
             </div>
         </header>
         <section class="cabecalho">
@@ -136,6 +148,7 @@
             </form>
             <p>&copy; 2022 OptimusTech. Todos os direitos reservados.</p>
         </footer>
+        <script src="scripts/script.js"></script>
     </body>
     <!--  -->
 </html>

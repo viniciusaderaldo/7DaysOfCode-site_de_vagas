@@ -33,3 +33,8 @@ body{
     width: 100%;
     height: 100vh;
 }
+
+.material-symbols-outlined{
+    color: var(--corPrincipal);
+    font-size: 3rem;
+}

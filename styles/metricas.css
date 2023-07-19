@@ -37,3 +37,10 @@
         padding: 0 calc((100% - 45rem) / 2);
     }
 }
+
+@media screen and (max-width: 425px){
+    .metricas{
+        grid-template-columns: 1fr;
+        padding: 0 calc((100% - 20rem) / 2);
+    }
+}

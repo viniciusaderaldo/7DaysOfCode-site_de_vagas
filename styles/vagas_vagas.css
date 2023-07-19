@@ -34,3 +34,9 @@
 .vagasAbertas__descricao p{
     font-weight: 500;
 }
+
+@media screen and (max-width: 425px){
+    .vagasAbertas article{
+        padding: 0 calc((100% - 20rem) / 2);
+    }
+}

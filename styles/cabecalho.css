@@ -23,3 +23,13 @@
     font-weight: 400;
     font-size: 1.25rem;
 }
+
+.menuAberto{
+    padding-top: 17rem;
+}
+
+@media screen and (max-width: 425px){
+    .cabecalho p{
+        text-align: left;
+    }
+}

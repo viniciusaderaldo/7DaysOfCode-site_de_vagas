@@ -7,7 +7,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>OptimusTech</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <!--  -->
@@ -37,8 +36,21 @@
                     <img src="images/logo.svg" alt="Logo da OptimusTech">
                     <h1>OptimusTech</h1>
                 </div>
-                <span class="material-symbols-outlined" aria-label="Abrir menu de navegação">menu</span>
-                <span class="material-symbols-outlined desativado" aria-label="Fechar menu de navegação">close</span>
+                <span class="material-symbols-outlined menuAbrir" aria-label="Abrir menu de navegação">menu</span>
+            </div>
+            <div class="menuMobile desativado">
+                <nav class="menuNavMobile">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">produtos</a></li>
+                        <li><a href="#">recursos</a></li>
+                        <li><a href="#">sobre nós</a></li>
+                    </ul>
+                </nav>
+                <div class="header__entrar">
+                    <button type="button" name="entrar" id="btnEntrar">entrar</button>
+                    <button type="button" name="cadastrar" id="btnCadastrar">cadastrar</button>
+                </div>
             </div>
         </header>
         <section class="cabecalho">
@@ -143,7 +155,7 @@
             <h3>Seja o primeiro a saber quando novas vagas serão abertas!</h3>
             <form>
                 <label for="email">Insira seu e-mail</label>
-                <input id="email" type="email" name="email" placeholder="seuemail@exemplo.com">
+                <input id="email" type="email" name="email" placeholder="seuemail@exemplo.com" required minlenght="7">
                 <input class="form__btn" type="submit" value="Cadastrar">
             </form>
             <p>&copy; 2022 OptimusTech. Todos os direitos reservados.</p>

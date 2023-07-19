@@ -34,3 +34,13 @@
     font-size: 0.875rem;
     font-weight: 400;
 }
+
+@media screen and (max-width: 425px){
+    .depoimentos{
+        padding: 4rem calc((100% - 20rem) / 2);
+    }
+    
+    .depoimentos__depoimento{
+        text-align: left;
+    }
+}
